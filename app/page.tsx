@@ -13,16 +13,38 @@ import { FloatingNav } from "@/components/ui/FloatingNavbar";
 
 const Home = () => {
   return (
-    <main className="relative bg-black-100 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5">
+<main className="relative bg-[radial-gradient(ellipse_at_top_left,_var(--tw-gradient-stops))] from-pink-100 via-white to-purple text-gray-700 flex justify-center items-center flex-col overflow-hidden mx-auto sm:px-10 px-5 min-h-screen font-sans">
+
       <div className="max-w-7xl w-full">
-        <FloatingNav navItems={navItems} />
-        <Hero />
-        <Grid />
-        <RecentProjects />
-        <Clients />
-        <Experience />
-        <Approach />
-        <Footer />
+      <FloatingNav
+  navItems={[
+    { name: "Home", link: "#home" },
+    { name: "About", link: "#about" },
+    { name: "Work", link: "#work" },
+    { name: "Contact", link: "#contact" },
+  ]}
+/>
+
+<section id="home">
+      <Hero />
+    </section>
+
+    <Grid />
+
+    <section id="work">
+      <RecentProjects />
+    </section>
+
+    {/* <Clients /> */}
+
+    <section id="about">
+      <Experience />
+      <Approach />
+    </section>
+
+    <section id="contact">
+      <Footer />
+    </section>
       </div>
     </main>
   );

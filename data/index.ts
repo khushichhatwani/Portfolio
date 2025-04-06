@@ -72,35 +72,35 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
+    title: "AI Budget Management Platform",
+    des: "Wealthi(Capstone Project) is an AI-powered budget tracker built with Next.js, Prisma, Gemini, Tailwind, and shadcn/ui. It lets users log transactions, view monthly spend/save reports, and get smart reminders to stay within budget.",
+    img: "/banner.jpeg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    link: "https://wealthi-zeta.vercel.app/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
+    title: "Spiritual Platform",
+    des: "A spiritual platform dedicated to spreading Guruji's divine wisdom through Katha, Anushthan, and Dosha remedies.It guides seekers on a path of devotion and inner peace.",
+    img: "/hero_image.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "https://gangasharnam.com/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    title: "Score4All Fantasy World",
+    des: "Worked on this fantasy sports platform during my time at Football Firm. I contributed to the frontend architecture using React Native, integrated Firebase real-time match data, and optimized user onboarding flows for smooth gameplay experiences.",
+    img: "/bask.jpg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    link: "https://play.google.com/store/apps/details?id=com.s4a.sports&pcampaignid=web_share",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
+    title: "Into The Stands",
+    des: "Contributed to this sports app by integrating real-time betting data and odds. Ensured smooth API consumption and seamless display of dynamic betting insights within the app for enhanced user engagement and decision-making.",
+    img: "/football.jpg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://play.google.com/store/search?q=into+the+stands&c=apps&hl=en_IN",
   },
 ];
 
@@ -173,29 +173,18 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "React Developer - Football Firm",
+    duration:"Dec 2023-Present",
+    desc: "Built and deployed web and mobile applications from scratch, working independently across teams. Took ownership of features end-to-end, often learning new technologies on the go. Developed strong skills in self-reliance, adaptability, and startup-style problem-solving..",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
+  
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Campus Tech Leader (Intern) - iNeuron.ai",
+    duration:"July 2022- October 2022",
+    desc: "Mentored students along the developer roadmap, equipping them with the skills and knowledge to navigate new technologies confidently. Led hands-on Web Development Bootcamps focused on building real-world projects. Worked closely with individuals to address specific learning needs, driven by a vision to build a strong community of future tech innovators.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -205,13 +194,12 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link:"https://github.com/khushichhatwani"
   },
+  
   {
     id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
     img: "/link.svg",
+    link:"https://www.linkedin.com/in/khushi-chhatwani-1b534822a/"
   },
 ];
